@@ -1,0 +1,95 @@
+@font-face {
+    font-family: fav;
+    src: url(./Fonts/MonumentExtended-Ultrabold.otf);
+}
+
+body{
+    background-color: #000;
+    color: #fff;
+    font-family: 'Inter Tight', sans-serif;
+    overflow-x: hidden;
+}
+
+section{
+    padding: 3% 16%;
+}
+
+.event-title{
+    font-family: 'fav','Inter Tight', sans-serif;
+    font-size: 60px;
+}
+
+svg{
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.title-1{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.title-2{
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+section a.register-btn{
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 32px;
+    border: 2px solid #3a439d;
+    background-color: #3a439d;
+    box-shadow: 0px 5px #242a68;
+    transition: all .4s ease-in-out;
+}
+
+section a.register-btn:hover{
+    background-color: #3841a0;
+    box-shadow: 0px 2px #242a68;
+}
+
+p span{
+    font-weight: 500;
+}
+
+.back a button {
+    font-size: 24px;
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: transparent;
+    transition: all .3s ease-in;
+    background-color: rgb(20, 20, 20);
+}
+
+.back a button:hover{
+    background-color: rgb(32, 32, 32);
+
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    section{
+        padding: 3% 4%;
+    }
+
+    .event-title{
+        font-size: 32px;
+    }
+
+    svg{
+        display: none;
+    }
+
+}
